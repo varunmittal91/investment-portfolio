@@ -1,0 +1,58 @@
+{
+  "profile": {
+    "name": "Vikas",
+    "annual_investment": 24000,
+    "monthly_contribution": 2000,
+    "start_date": "2026-04",
+    "risk_tolerance": "medium",
+    "investment_horizon_years": 10,
+    "rebalance_band_pct": 5
+  },
+  "accounts": {
+    "tfsa": {
+      "label": "TFSA",
+      "contribution_room": 7000,
+      "current_balance": 0,
+      "monthly_contribution": 900,
+      "priority": 1,
+      "tax_treatment": "tax_free",
+      "holdings": {},
+      "target_allocation": {
+        "RBF660": { "pct": 50, "label": "RBC Select Aggressive Growth Portfolio" },
+        "RBF5733": { "pct": 30, "label": "RBC Canadian Index Fund" },
+        "RBF5737": { "pct": 20, "label": "RBC U.S. Index Fund" }
+      }
+    },
+    "rrsp": {
+      "label": "RRSP",
+      "contribution_room": 12000,
+      "current_balance": 0,
+      "monthly_contribution": 700,
+      "priority": 2,
+      "tax_treatment": "tax_deferred",
+      "holdings": {},
+      "target_allocation": {
+        "RBF2143": { "pct": 40, "label": "RBC U.S. Equity Index ETF Fund" },
+        "RBF5736": { "pct": 30, "label": "RBC Intl Equity Currency Neutral Index ETF" },
+        "RBF900": { "pct": 30, "label": "RBC Canadian Bond Index ETF Fund" }
+      }
+    },
+    "non_registered": {
+      "label": "Non-Registered",
+      "current_balance": 0,
+      "monthly_contribution": 400,
+      "priority": 3,
+      "tax_treatment": "taxable",
+      "holdings": {},
+      "target_allocation": {
+        "RBF607": { "pct": 60, "label": "RBC Canadian Dividend Fund" },
+        "RBF636": { "pct": 40, "label": "RBC Canadian Money Market Fund" }
+      }
+    }
+  },
+  "dca_schedule": {
+    "frequency": "monthly",
+    "day_of_month": 1,
+    "months_remaining": 12
+  }
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+# Cached API data (large, re-fetchable)
+rbcgam_fds_fund_data.json
+rbcgam_dotcms_fund_data.json
+rbcgam_series_f_funds.csv
+
+# Claude Code local settings
+.claude/settings.local.json
+.claude/projects/
