@@ -16,7 +16,7 @@
       "monthly_contribution": 900,
       "priority": 1,
       "tax_treatment": "tax_free",
-      "holdings": {},
+      "holdings": { "RBF660": 993 },
       "target_allocation": {
         "RBF660": { "pct": 50, "label": "RBC Select Aggressive Growth Portfolio" },
         "RBF5733": { "pct": 30, "label": "RBC Canadian Index Fund" },
